@@ -1,3 +1,6 @@
+import { motion } from "framer-motion";
+import { Skeleton } from "antd";
+
 <motion.div
             className="w-full grid grid-cols-3 max-xl:grid-cols-2 max-md:grid-cols-1 gap-[3rem] max-h-[800px] overflow-y-auto no-scrollbar py-[4rem] px-[6rem] max-xl:px-[5rem] max-md:px-[4rem]"
             initial={{ opacity: 0 }}
